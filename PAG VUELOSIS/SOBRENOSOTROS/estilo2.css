@@ -1,0 +1,294 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.img {
+    width: 85%;
+            border-radius: 50%;
+            padding-left: 10%;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}   
+
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero h1{
+    color: white;
+}
+
+.CONTNTPL  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .CONTNTPL a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .CONTNTPL a:hover {
+    color: #f1f1f1;
+  }
+  
+  .CONTNTPL .cerrarPL {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .botonds {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .botonds:hover {
+    background-color:#444;
+  }
+
+
+.directoras{
+    width: 90%;
+    margin: auto;
+}
+.directoras h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+.directores img {
+    width: 85%;
+    border-radius: 50%;
+    padding-left: 10%;
+}
+.directores h3{
+    text-align: center;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: -90px;
+    transition: 0.5s;
+}
+
+.dropdown-content a:hover   {background-color: #ddd;}
+/* .dropbtn:hover .dropdown-content{display:block;} */
+/* .MENU:hover .dropdown-content{display:block;} */
+.show {display: block;}
+.dropbtn:active { background-color:rgba(49, 56, 105, 100); box-shadow: 0 5px #666; transform: translateY(-4px);}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.dropbtn {
+    background-color:rgba(223, 225, 237, 216);
+    display: inline-block;
+    color: black;
+    padding: 16px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    border:none;
+    border-color:rgba(49, 56, 105, 100) ;
+    border-radius: 12px;
+    height: 94%;
+    width: 94%;
+    outline: none
+}
+
+.logo img{
+    height: 70px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.log img{
+    height: 100px;         
+    margin-right: 50px;
+}
+
+.nav1 a{
+    padding-right: 170px;
+}
+
+
+@media (min-width:768px) {     
+    .divabajoh1 {         
+   
+        display: flex;         
+        flex-wrap: wrap; 
+        justify-content: space-between;     
+    }     
+    .directores{
+  
+        width: 48%;         
+        margin: 0%;
+     }
+
+    }         
+             
+    @media (min-width: 1200px) {     
+        .divabajoh1 {         
+            max-width: 8000px;         
+            margin: auto;         
+        }     
+        .directores{         
+            width: 50%;         
+            text-align: center;         
+        }     
+        .directores img {         
+            width: 50%;         
+        }     
+    } 
+
+
+
+
+
+
+
+
+
+
+
+    .directoras{
+        width: 90%;
+        margin: auto;
+    }
+    .directoras h1{
+        text-align: center;
+        font-size: 36px;
+    }
+    
+    .directores img {
+        width: 85%;
+        border-radius: 50%;
+        padding-left: 10%;
+    }
+    .directores h3{
+        text-align: center;
+    }
+    @media (min-width:768px) {     
+        .divabajoh1 {         
+       
+            display: flex;         
+            flex-wrap: wrap; 
+            justify-content: space-between;     
+        }     
+        .directores
+    {
+      
+            width: 48%;         
+            margin: 0%;
+         }
+    
+        }         
+        
+        @media (min-width:800px) {
+            .nav1    {
+                width: 99% ;
+                height: auto;
+                margin: 5px;
+                border: 10px;
+                border-color: black;
+                display: flex;
+                flex-wrap: wrap;
+                background-color: rgba(49, 56, 105, 100);
+                padding-right: 10px;
+            }
+            .MENU{
+                display: inline-block;
+                margin-left:auto;
+                position: relative;
+                
+            }
+            .dropdown-content{
+                padding-bottom: 0px;
+                padding-top: 0px;
+            }
+            .dropbtn{
+                padding-top: 25px;
+                margin-top: 2px;
+            }
+        }
+
+        @media (min-width: 1200px) {     
+            .divabajoh1 {         
+                max-width: 8000px;         
+                margin: auto;         
+            }     
+            .directores
+     {         
+                width: 50%;         
+                text-align: center;         
+            }     
+            .directores img {         
+                width: 50%;         
+            }     
+        } 
+
+#accionistas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#accionistas .container{
+    padding: 150px 12px;
+}
+
+#accionistas h4{
+    margin-top: 0;
+    font-size: 3em;
+}
